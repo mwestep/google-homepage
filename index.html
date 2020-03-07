@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<head>
+	<title> Google </title>
+</head>
+
+<style>
+body{
+    margin: 0px;
+	font-family: sans-serif;
+}
+
+
+nav {
+	padding: 5px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+input{
+	justify-content: center;
+}
+
+#header{
+	display: flex;
+	display: inline;
+
+}
+
+
+#logo{height:233px;margin-top:89px}
+
+#googlelogo{
+	padding-top:120px
+}
+
+.top-left{
+	float: left;
+	margin: 20px;
+}
+
+.top-right{
+	float: right;
+	margin: 20px;
+
+}
+
+.search_box {
+    border-radius: 20em;
+    padding-left: 15px;
+    width: 575px;
+    height: 45px;
+    border:rgb(223,225,229) 2px solid;
+}
+
+.search_box:focus{
+    outline: none;
+}
+
+.google_buttons {
+    border-radius: 5px;
+    margin: 30px 6px 8px 6px;
+    background-color: rgb(243,243,243);
+    color: rgb(95,99,104);
+    height: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: none;
+    font-size: 16px;
+}
+
+.google_buttons:hover{
+    border: 1px solid rgba(138, 136, 136, 0.945);
+    cursor: pointer;
+}
+
+.bottom-left {
+	float: left;
+	margin: 8px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 99.5%;
+    background-color: rgba(214, 214, 214, 0.774);
+}
+
+
+.bottom-right {
+	float: right;
+	margin: 8px;
+}
+
+
+
+</style>
+
+
+<body>
+	
+	<div id="header" class="flex-container">
+		<nav>
+			<a href="https://about.google/intl/en/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" class="top-left">About</a>
+			<a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" class="top-left">Store</a>
+		    <a href="www.gmail.com" class="top-right">Gmail</a>
+			<a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" class="top-right">Images</a>
+		</nav>
+	</div>
+	<div id="main">
+		<span>
+			<center>
+				<div id="logo">
+					<img id="googlelogo" alt="google_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+			</center>
+		
+	
+		<center>
+			<input name="search_bar" class="search_box">
+	    </center>
+
+		<center>
+			<input type="button" value="Google Search" class="google_buttons">
+			<input type="button" value="I'm Feeling Lucky" class="google_buttons">
+		</center>
+
+	<nav>
+		<footer>
+			<a href="" class="bottom-left">Advertising</a>
+			<a href="" class="bottom-left">Business</a>
+			<a href="" class="bottom-left">How search works</a>
+			<a href="" class="bottom-right">Privacy</a>
+			<a href="" class="bottom-right">Terms</a>
+			<a href="" class="bottom-right">Settings</a>
+		</footer>
+	</nav>
+</body>

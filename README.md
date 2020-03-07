@@ -1,0 +1,1 @@
+Sample webpage using Google.com homepage as reference.
